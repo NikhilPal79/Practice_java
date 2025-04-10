@@ -27,8 +27,8 @@ public class RemoveDuplicate4 {
 
         ///  convert into SET to remove duplicates
 
-        Set<String> originals = new HashSet<>();
-        Set<String> duplicates  = new HashSet<>();
+        Set<String> originals = new TreeSet<>();
+        Set<String> duplicates  = new TreeSet<>();
 
         for ( String element : splitString) {
             if (!originals.add(element)) {
