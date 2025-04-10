@@ -2,7 +2,7 @@ package Set;
 
 import java.util.*;
 
-public class OnString {
+public class OnString2 {
     public static void main(String[] args) {
 
         String[] str = {"nikhil","mayank","guri","sawan","ridham","mohit","rohit","tirath","nikhil","harp","luvi","prince"};

@@ -2,7 +2,7 @@ package Set;
 
 import java.util.*;
 
-public class ArrayToListToSet {
+public class ArrayToListToSet1 {
     public static void main(String[] args) {
 
 

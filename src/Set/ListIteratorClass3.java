@@ -2,7 +2,7 @@ package Set;
 
 import java.util.*;
 
-public class ListIteratorClass {
+public class ListIteratorClass3 {
     public static void main(String[] args) {
 
         List<Integer> list = new ArrayList<>();
