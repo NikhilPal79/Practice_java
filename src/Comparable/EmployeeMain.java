@@ -1,9 +1,6 @@
 package Comparable;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class EmployeeMain {
     public static void main(String[] args) {
@@ -27,6 +24,7 @@ public class EmployeeMain {
 
         ///  add compareTo method
 
+        Collections.sort(employeeList);
         System.out.println("sorting on the basis of branch : "+employeeList);
 
 

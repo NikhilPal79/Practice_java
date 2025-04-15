@@ -1,6 +1,7 @@
 package Comparable;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CarMain {
@@ -18,6 +19,8 @@ public class CarMain {
         System.out.println();
         System.out.println();
 
+
+        Collections.sort(carList);
         System.out.println("after sorting on model: "+carList);
     }
 }
