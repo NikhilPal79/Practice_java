@@ -26,5 +26,6 @@ public class Demo {
         Collections.swap(integerList,1,10);
         System.out.println(integerList);
         System.out.println(integerList.size());
+
     }
 }
